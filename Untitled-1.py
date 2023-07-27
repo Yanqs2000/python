@@ -11,6 +11,7 @@ n = int(input("请输入斐波那契数列的长度: "))
 
 # 生成并打印斐波那契数列
 fib_sequence = fibonacci(n)
+print("start")
 print(fib_sequence)
 print("end")
 
