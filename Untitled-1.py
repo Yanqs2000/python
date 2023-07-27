@@ -1,3 +1,4 @@
+#yanqs2000
 def fibonacci(n):
     fib_sequence = [0, 1]  # 斐波那契数列的初始前两个数字
     while len(fib_sequence) < n:
@@ -9,6 +10,7 @@ def fibonacci(n):
 n = int(input("请输入斐波那契数列的长度: "))
 
 # 生成并打印斐波那契数列
-fib = fibonacci(n)
-print(fib)
+fib_sequence = fibonacci(n)
+print(fib_sequence)
+print("end")
 
