@@ -1,4 +1,6 @@
 #yanqs2000
+print("hello world")
+
 def fibonacci(n):
     fib_sequence = [0, 1]  # 斐波那契数列的初始前两个数字
     while len(fib_sequence) < n:
