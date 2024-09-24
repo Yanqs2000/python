@@ -9,6 +9,7 @@ mycar.read_mileage()
 class Employee():
     "所有员工的基类"
     empCount = 0  # 类属性(类里面、函数外面定义)，从类内部或类外部以Employee.empCount的形式进行访问
+    empCount1 = 1
 
     def __init__(self, name, salary):
         "对象属性是对象特征的描述,如name,salary"
